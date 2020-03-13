@@ -1,0 +1,51 @@
+{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("sam.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.ul-links{
+    margin-top: 80px;
+    margin-left: 20px;
+    list-style: none;
+    text-align: center;
+    position: fixed;
+  
+}
+.ul-links li{
+    display: block;
+    padding: 14px 15px;
+    
+}
+.ul-links li a{
+	color: white;
+	text-decoration: blink;
+	padding: 4px 15px;
+	font-family:"Rossboto", sans-serif;
+    font-size:20px;
+    border: 1px solid white;
+}
+.ul-links li a:hover{
+    background-color:darkorange;
+}
+h1{
+	color:white;
+	font-size:70PX;
+	text-align: center;
+    position: absolute;
+    width: 50%;
+    left: 350px;
+    bottom: 200px;
+}
+h3{
+    font-size: 30px;
+    position: absolute;
+    bottom: 150px;
+    color: white;
+    left: 400px;
+    text-align: center;
+}
