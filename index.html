@@ -7,25 +7,27 @@
 </head>
 <body>
 	<header>
-	    <div class="ul-links">
-	        <a href="./index.html" >HOME</a>
-			<a href="#bio">BIO</a>
-			<a href= "#blogs">BLOGS</a>  
-			<a href="#projects">PROJECTS</a>
-			<a href="#messaging">CONTACT ME</a>   
-		</div>
 		<div class= "central">
-		<h1>Hi, I'm Nives <br> I love to <em>make</em> things that <u>change</u> lives</h1>
-		<!--front-end developer and blogger. Welcome to my page :)-->
+		<h1>Hi, I'm Nives. I love to <br> <em>make</em> things that <u>change</u> lives</h1>
 		</div>
 	</header>
+	<div id="navbar">
+		<a class= "active" href="./index.html" >HOME</a>
+		<a href="#bio">BIO</a>
+		<a href= "#blogs">BLOGS</a>  
+		<a href="#projects">PROJECTS</a>
+		<a href="#messaging">CONTACT ME</a>   
+	</div>
 	<h2 id="bio" class="titles"><u>SHORT BIO</u></h2>
 		<div class= "story">
-			<div class= "image-segment">
-				<img style= "border-radius: 25%" src="pp.JPG" alt= "my picture">
+			<div class= "image-segment" style="font-size: 20px; text-align: center">
+				<figure>
+					<img  id= "me" style= "border-radius: 25%" src="pp.JPG" alst= "my picture">
+					<figcaption>Full Name: <br> <strong>Nameere Olive Nives</strong></figcaption>
+				</figure>
 			</div>
 			<div class= bio-info>
-				<h2 style="font-size: 25px">From Telesales Agent to Web developer</h2>
+				<h2 style="font-size: 25px">From Telesales to Web developement</h2>
 				<p>I am a <strong>Front-End Web developer, blogger and life enthusiast.</strong>
 				I have built responsive websites using <em>HTML, CSS, JavaScript,</em> and <em>jQuery</em><br><br><br>
 				I blog to motivate & change lives. I use my experiences and challenges 
@@ -36,8 +38,17 @@
 
 	<h2 id= "blogs" class= "titles"><u>BLOGS</u></h2>
 		<div class="blogging-info">
-			<div>
-				<a href= "https://olivenives.blogspot.com/2018/10/resolving-conflict.html" target="_blank"><img class="blog-img"src="conf.png" alt="resolving-conflict"></a>
+			<div class= "conflict-blog" style= "background-color: rgb(28, 31, 31) ">
+				<figure>
+					<!--<img src="conflict.png" alt= "resolving-conflict"-->
+					<img src="conf.png" alt="resolving-conflict">
+					<figcaption>
+						This is a blog about my personal view on how we can resolve
+						conflicts in our communities. <br> 
+						<a href= "https://olivenives.blogspot.com/2018/10/resolving-conflict.html" target="_blank">Click Here</a> to
+						learn more..
+					</figcaption>
+				</figure>
 			</div>
 			<div>
 				<a href= "#" target="_blank"><img class="blog-img"src="broken.JPG" alt="heartbreaks"></a>
@@ -53,15 +64,15 @@
 				<img src="dim.jpg" alt="another pic for  projects">
 			</div>
 		</div>
-
-		<div class="contact-info">
-		<h4 id= "messaging">Leave me a message</h4> 
-		<form action="#">
-		<input type="text" Class= "pol" placeholder= "Full Name" name="name" required> <br> <br>
-		<input type="text" class= "pol" placeholder="Enter your Email address" name="email" required> <br> <br>
-		<input type="text" class= "tite" placeholder="type your message here.." name="message" required>
-		<button type="submit">Send Message</button>
-		</form> 
+	
+		<h4 id= "messaging" class= "titles">Leave me a message</h4> 
+		<div class="contact-info"></div>
+			<form action="#">
+			<input type="text" Class= "pol" placeholder= "Full Name" name="name" required> <br> <br>
+			<input type="text" class= "pol" placeholder="Enter your Email address" name="email" required> <br> <br>
+			<input type="text" class= "tite" placeholder="type your message here.." name="message" required>
+			<button type="submit">Send Message</button>
+			</form> 
 		</div>
 	<footer>
         <ul>
