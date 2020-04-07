@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>olive-nives</title>
+	<title>Olive-Nives</title>
+	<meta charset = "utf-8">
 	<meta name="viewpoint" content= "width=device-width, initial-scale= 1.0">
 	<link rel="stylesheet" type="text/css" href="index-style.css">
+	
 </head>
 <body>
 	<header>
@@ -11,76 +13,98 @@
 		<h1>Hi, I'm Nives. I love to <br> <em>make</em> things that <u>change</u> lives</h1>
 		</div>
 	</header>
-	<div id="navbar">
-		<a class= "active" href="./index.html" >HOME</a>
-		<a href="#bio">BIO</a>
-		<a href= "#blogs">BLOGS</a>  
-		<a href="#projects">PROJECTS</a>
-		<a href="#messaging">CONTACT ME</a>   
-	</div>
-	<h2 id="bio" class="titles"><u>SHORT BIO</u></h2>
-		<div class= "story">
-			<div class= "image-segment" style="font-size: 20px; text-align: center">
-				<figure>
-					<img  id= "me" style= "border-radius: 25%" src="pp.JPG" alst= "my picture">
-					<figcaption>Full Name: <br> <strong>Nameere Olive Nives</strong></figcaption>
-				</figure>
-			</div>
-			<div class= bio-info>
-				<h2 style="font-size: 25px">From Telesales to Web developement</h2>
-				<p>I am a <strong>Front-End Web developer, blogger and life enthusiast.</strong>
-				I have built responsive websites using <em>HTML, CSS, JavaScript,</em> and <em>jQuery</em><br><br><br>
-				I blog to motivate & change lives. I use my experiences and challenges 
-				i've over come to give hope to <em>'lost souls'</em>. Someone out there needs an inspiration to move forward.
-				</p>
-			</div>
+		<div id="navbar">
+			<a class= "active" href="./index.html" >HOME</a>
+			<a href="#bio">BIO</a>
+			<a href= "#blogs">BLOGS</a>  
+			<a href="#projects">PROJECTS</a>
+			<a href="#messaging">CONTACTS</a>  
 		</div>
-
-	<h2 id= "blogs" class= "titles"><u>BLOGS</u></h2>
-		<div class="blogging-info">
-			<div class= "conflict-blog" style= "background-color: rgb(28, 31, 31) ">
-				<figure>
-					<!--<img src="conflict.png" alt= "resolving-conflict"-->
-					<img src="conf.png" alt="resolving-conflict">
+		<h2 id="bio" class="titles"><u>SHORT BIO</u></h2>
+			<div class= "story">
+				<div class= "image-segment" style="font-size: 20px; text-align: center">
+					<figure>
+						<img  id= "me" src="pp.JPG" alt= "my picture">
+						<figcaption>Full Name: <br> <strong>Nameere Olive Nives</strong></figcaption>
+					</figure>
+				</div>
+				<div class= bio-info>
+					<p>I am a <strong>Front-End Web developer, blogger and life enthusiast.</strong>
+					I have built responsive websites using <em>HTML, CSS, JavaScript,</em> and <em>jQuery</em><br><br>
+					I blog to motivate & change lives. I use my experiences and challenges 
+					i've over come to give hope to <em>'lost souls'</em>. Someone out there needs an inspiration to move forward.
+					</p>
+				</div>
+			</div>
+		<div class="white-pages">
+			<h2 id= "blogs" class= "titles"><u>BLOGS</u></h2>
+			<div class="grid-items">
+				<div class= "blog1">
+					<img class="grid-img" src="conf.png" alt="resolving-conflict">
 					<figcaption>
-						This is a blog about my personal view on how we can resolve
-						conflicts in our communities. <br> 
-						<a href= "https://olivenives.blogspot.com/2018/10/resolving-conflict.html" target="_blank">Click Here</a> to
-						learn more..
+						<h4 class="grid-heading">Resolving conflicts in communities</h4>
+						<p class="grid-paragraph">This is a blog about my personal view on how we can resolve
+						conflicts in our communities.</p> <br> 
+						<a href= "https://olivenives.blogspot.com/2018/10/resolving-conflict.html" target="_blank"><button>Visit Page</button></a>
+			
 					</figcaption>
-				</figure>
+				</div>
+				<div class ="blog2" style="background-color: greenyellow">
+					<h4>BLOG 2</h4>
+					<p>This is space for my other blog in progress</p>
+				</div>
+				<div class= "blog3" style="background-color: gray">
+					<h4>BLOG 3</h4>	
+					<p>this is space for blog number 3</p>
+				</div>
 			</div>
-			<div>
-				<a href= "#" target="_blank"><img class="blog-img"src="broken.JPG" alt="heartbreaks"></a>
+			<h2 id="projects" class= "titles"><u>PROJECTS</u></h2>
+			<div class="grid-items">
+				<div class="project1">
+					<img class="grid-img" src="sam.JPG" alt="my webpage">
+					<figcaption>
+						<h4 class="grid-heading">Personal Webpage</h4>
+						<p class="grid-paragraph">I built this Portforlio Page Using HTML and CSS. <br>
+						It got me fully
+						comfortable styling websites using plain CSS</p>
+						<a class="grid-paragraph github-btn" href=""><u>View Code on Github</u></a><br>
+						<a href="./index.html"><button>Visit Site</button></a>
+						
+					</figcaption>
+				</div>
+				<div class="project2">
+					<p>space for my second project</p>
+				</div>
+				<div>
+					<p>my third project goes here</p>
+				</div>
 			</div>
 		</div>
-		
-		<h2 id="projects" class= "titles"><u>PROJECTS</u></h2>
-		<div  class="projects-info">
-			<div>
-				<a href="./index.html"><img src="lem.PNG"></a>
-			</div>
-			<div>
-				<img src="dim.jpg" alt="another pic for  projects">
-			</div>
-		</div>
-	
-		<h4 id= "messaging" class= "titles">Leave me a message</h4> 
-		<div class="contact-info"></div>
-			<form action="#">
-			<input type="text" Class= "pol" placeholder= "Full Name" name="name" required> <br> <br>
-			<input type="text" class= "pol" placeholder="Enter your Email address" name="email" required> <br> <br>
-			<input type="text" class= "tite" placeholder="type your message here.." name="message" required>
-			<button type="submit">Send Message</button>
-			</form> 
-		</div>
+		<div><p></p></div>
 	<footer>
-        <ul>
-            <li>Facebook, @Olive Nives Nameere</li><li>Instagram, @aulyve_nives</li><li> LinkedIn<a href= "https://www.linkedin.com/in/olive-nives-nameere-0a8669127" target="_blank">  @Olive Nives Nameere</a></li><li>Whatsapp; +256700171844</li><li>Business email, olivenivesk@yahoo.com</li>
-		</ul>
-		OLIVE NIVES NAMEERE <span class="highlight">&copy;2020</span>
-	
-	</footer> 	
+		<div id= "messaging" class="foot-notes">
+			<div class="address">
+				<h4>ADDRESS</h4>
+				<P>Kazo-Central <br>Kampala | Uganda</P>
+			</div>
+			<div class="contacts">
+				<h4>CONTACTS</h4>
+				<P>Email: olivenives63@gmail.com <br>
+			  	   Phone: +256700171844 <br>
+			   	   Skype: Olive Nives Nameere</P>
+			</div>
+			<div class="social-media">
+				<h4>SOCIAL MEDIA</h4>
+				<P>FB: Olive Nives Nameere <br>
+			       LinkedIn: <a href= "https://www.linkedin.com/in/olive-nives-nameere-0a8669127" target="_blank">Olive Nives Nameere</a> <br>
+			       Instagram: aulyve_nives <br>
+			       Twitter:  </P>
+			</div>
+			<div class="thank-note">
+				<p>THANK YOU FOR VISITING MY PAGE</p>
+			</div>
+		</div>
+	</footer> 
 </body>
 
 </html>
