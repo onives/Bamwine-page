@@ -6,26 +6,49 @@
     width: auto;
     color: white;
 } */
+/* font-family: 'Bungee Inline', cursive;
+font-family: 'Libre Caslon Display', serif;
+font-family: 'Pangolin', cursive; */
+
 body{
     background-color: #111010;
     color: white;
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 20px;
 
 }
+.titles{
+    font-family: 'Pangolin', cursive; 
+    font-size: 40px;
+    text-shadow: 2px 2px 2px #aaa;
+}
+.name1{
+    font-family: 'Bungee Inline', cursive;
+}
 header{
-    background-image: url("michelle.jpg");
+    background-image: url("dim.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
     width: 100%;
-    height: 80vh;
+    height: 90vh;
+}
+.navbar-font{
+    font-size: 25px;
+}
+.navbar{
+    background-color: #1b1919;
+}
+.navbar-collapse a:link{
+    float: right;
 }
 .welcome-text{
-    text-align: center;
+    /* text-align: center; */
     position: absolute;
-    top: 65%;
-    left:50%;
-    transform: translate(-50%, -50%);
+    top: 50%;
+    left:20%;
+    /* transform: translate(-50%, -50%); */
 }
 .btn-color{
     background-color: rgb(235, 155, 8);
@@ -41,6 +64,31 @@ header{
     width: 100%;
     height:auto;
 }
+.img2{
+    width: 202.5px;
+    height: 270px;
+}
+progress[value]{
+    appearance: none;
+    border: none;
+    width: 80%; height: 15px;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5) inset;
+    color: rgb(233, 157, 17);
+    margin: 0 0 1.5em;
+}
+progress[value]::-webkit-progress-bar{
+    background-color: whitesmoke;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5) inset;
+}
+progress[value]::-webkit-progress-value{
+    position: relative;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+    border-radius: 3px;
+    color: rgb(233, 157, 17);
+}
 .focus-text{
    color: rgb(233, 157, 17);
    font-weight: bold;
@@ -55,4 +103,8 @@ h2{
     /* box-shadow: 6px 6px 10px #454d55 inset; */
     box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;
     border-radius: 5px;
+}
+footer{
+    font-size: 20px;
+    line-height: 2.5rem;
 }

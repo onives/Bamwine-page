@@ -12,21 +12,42 @@
         <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
         <link href="style-bootstrap.css" rel="stylesheet" type="text/css">
         <link href="fontawesome-web/css/all.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Libre+Caslon+Display&family=Pangolin&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
+                <!-- navbar-dark bg-dark -->
+            <nav class="navbar navbar-font navbar-expand-md navbar-dark fixed-top">
+                <a class="navbar-brand navbar-font" href="#">MICHELLE</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link navbar-font" href="#bio">BIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hire-me navbar-font">QUALIFICATIONS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-info navbar-font">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
             <div class="page-header">
                 <div class="container">
                     <div class="welcome-text">
-                        <h1 style="font-weight: bold;">Hi there, <span class="focus-text">I'm Michelle.</span> <br><small>A life  enthusiast</small></h1>
+                        <h1 style="font-weight: bold;">Hi there, <span class="focus-text name1">I'm Michelle.</span> <br><small>A life  enthusiast</small></h1>
                         <p><a href="#hire-me" class="btn btn-primary btn-lg btn-color" role="button">Hire Me</a></p>
-                        </div>
+                    </div>
                 </div>
             </div>
         </header>
         <div style="height: 50px;"></div>
         <div class="container">
-                <h2 class="text-center">Short Bio</h2>
+                <h2 id="bio" class="text-center titles">Short Bio</h2>
                 <div style="height: 50px;"></div>
                 <p class="lead">A small river named Duden flows by their place and supplies it with the necessary regelialia.
                         It is a paradisematic country, in which roasted parts of sentences fly into your mouth. <br> <br>
@@ -36,7 +57,7 @@
                         It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
                 </p>
             <div style="height: 50px;"></div>
-            <h2 id="hire-me" class="text-center">Qualifications</h2>
+            <h2 id="hire-me" class="text-center titles">Qualifications</h2>
             <div style="height: 50px;"></div>
             <div class="row">
                 <div class="col md-6 col-md-offset-1 px-4 py-4 mx-2 my-2 col-style">
@@ -89,27 +110,19 @@
                 </div>
             </div>
             <div style="height: 50px;"></div>
-            <h2 class="text-center">Aquired Skills</h2>
-            <div style="height: 50px;"></div>
+            <h2 class="text-center titles">Aquired Skills</h2>
+            <div style="height: 60px;"></div>
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="progress-wrap">
-                        <h4>Customer Care</h4>
-                        <div class="progress md-progress">
-                            <div class="progress-bar" role="progressbar" style="width: 78%" 
-                            aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"> 78%
-                            </div>
-                        </div>
-                    </div>
+                    <h4>Customer Care</h4>
+                        <progress max="100" value="78" class="html5"></progress>
+                        <span>78%</span>
                 </div>
                 <div class="col-sm-6">
                     <div class="progress-wrap">
                         <h4>Computer Skills</h4>
-                        <div class="progress md-progress">
-                            <div class="progress-bar" role="progressbar" style="width: 95%" 
-                            aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%
-                            </div>
-                        </div>
+                        <progress max="100" value="95" class="html5"></progress>
+                        <span>95%</span>
                     </div>
                 </div>
             </div>
@@ -117,42 +130,36 @@
                 <div class="col-sm-6">
                     <div class="progress-wrap">
                         <h4>Sales</h4>
-                        <div class="progress md-progress">
-                            <div class="progress-bar" role="progressbar" style="width: 85%" 
-                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%
-                            </div>
-                        </div>
+                        <progress max="100" value="85" class="html5"></progress>
+                        <span>85%</span>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="progress-wrap">
                         <h4>Time mangement</h4>
-                        <div class="progress md-progress">
-                            <div class="progress-bar" role="progressbar" style="width: 98%" 
-                            aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">98%
-                            </div>
-                        </div>
+                        <progress max="100" value="98" class="html5"></progress>
+                        <span>98%</span>
                     </div>
                 </div>
             </div>
-            <div style="height: 50px;"></div>
+            <div style="height: 60px;"></div>
             <footer class="page-footer">
                 <div class="row">
                     <div class="col-sm-6">
-                        <h3 class="text-center">Contact</h3>
+                        <h3 id="contact-info" class="text-center">Contact</h3>
                         <ul class="list-unstyled">
-                            <li><i class="fas fa-envelope fa-lg" aria-hidden="true"> bamwinemichelle2014@gmail.com</i></li>
-                            <li><i class="fab fa-whatsapp fa-lg" aria-hidden="true"> +256-773-212-315</i></li>
-                            <li><i class="fab fa-instagram fa-lg" aria-hidden="true"> Michellinda_bely</i></li>
-                            <li><i class="fab fa-linkedin fa-lg" aria-hidden="true"> <a href="https://www.linkedin.com/in/michelle-b-5a5b5b191" target="_blank">Click Here</a></i></li>
+                            <li>Email: bamwinemichelle2014@gmail.com</li>
+                            <li>Mobile: +256-773-212-315</i</li>
+                            <li>Instagram: Michellinda_bely</li>
+                            <li><a href="https://www.linkedin.com/in/michelle-b-5a5b5b191" target="_blank" style="text-decoration: none; color: white;">LinkedIn</a></i></li>
                         </ul>
                     </div>
                     <div class="col-sm-6">
                         <h3 class="text-center">Adress <i class="fa fa-home" aria-hidden="true"></i></h3>
                         <address> 
                             <ul class="list-unstyled text-center">
-                                <li>Kampala| Uganda</li>
-                                <li>Luwum Street</li>
+                                <li>Kyebando | Central</li>
+                                <li>Uganda</li>
                                 <li></li>
                             </ul>
                         </address>
