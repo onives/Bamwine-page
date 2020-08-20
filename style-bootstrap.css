@@ -12,7 +12,7 @@ font-family: 'Pangolin', cursive; */
 
 body{
     background-color: #111010;
-    color: white;
+    color: whitesmoke;
     font-family: 'Libre Caslon Display', serif;
     font-size: 20px;
 
@@ -20,13 +20,13 @@ body{
 .titles{
     font-family: 'Pangolin', cursive; 
     font-size: 40px;
-    text-shadow: 2px 2px 2px #aaa;
+    text-shadow: 2px 2px 2px rgb(238, 235, 235);
 }
 .name1{
     font-family: 'Bungee Inline', cursive;
 }
 header{
-    background-image: url("dim.jpg");
+    background-image:linear-gradient(rgba(24, 23, 23, 0.5), rgba(24, 23, 23, 0.5)), url("hers.jpg"); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,14 +35,12 @@ header{
     height: 90vh;
 }
 .navbar-font{
-    font-size: 25px;
+    font-size: 25px; 
 }
 .navbar{
     background-color: #1b1919;
 }
-.navbar-collapse a:link{
-    float: right;
-}
+
 .welcome-text{
     /* text-align: center; */
     position: absolute;
@@ -90,8 +88,8 @@ progress[value]::-webkit-progress-value{
     color: rgb(233, 157, 17);
 }
 .focus-text{
-   color: rgb(233, 157, 17);
-   font-weight: bold;
+    color: rgb(233, 157, 17);
+    font-weight: bold;
 }
 h2{
     font-weight: bold;
